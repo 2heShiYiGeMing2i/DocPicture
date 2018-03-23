@@ -2,7 +2,7 @@ import requests
 import time
 import os  
 
-os.chdir( "F:\\image\\wallpaper")  
+os.chdir( "E:\\image\\wallpaper")  
 
 url = r"http://area.sinaapp.com/bingImg/"
 page = requests.get(url)
